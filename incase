@@ -1,0 +1,177 @@
+<form id="gform" method="POST" class="form" data-email="bfatehi8@gmail.com"
+action="https://script.google.com/macros/s/AKfycbzsqE65irAKlE-d6UvJNIcTjdFxk9jT7QrByy8SH66WDBNSjl_x/exec">
+    <legend class="formTitle">Sign Up Form</legend>
+    <fieldset class="pure-group">
+      <label for="date">Date</label>
+      <input id="date" name="dateInput" type="date"/>
+    </fieldset>
+    <fieldset class="pure-group">
+      <label for="nameInput">Full Name</label>
+      <input id="nameInput" name="nameInput" placeholder="ie:John Smith" />
+    </fieldset>
+    <fieldset class="pure-group">
+      <label for="addressInput">Address</label>
+      <input id="addressInput" name="addressInput" placeholder="Street Address" />
+    </fieldset>
+    <fieldset class="pure-group">
+      <label for="cityInput">City</label>
+      <input id="cityInput" name="cityInput" placeholder="ie:Bergenfield" />
+    </fieldset>
+    <fieldset class="pure-group">
+      <label for="zipInput">Zip Code</label>
+      <input id="zipInput" name="zipInput" placeholder="ie:12345" />
+    </fieldset>
+    <fieldset class="pure-group">
+      <label for="dobInput">DOB</label>
+      <input id="dobInput" name="dobInput" type="date"/>
+    </fieldset>
+    <fieldset class="pure-group">
+      <label for="ssnInput">SSN</label>
+      <input id="ssnInput" name="ssnInput" placeholder="ie:000000000" />
+    </fieldset>
+    <fieldset class="pure-group">
+      <label for="phoneInput">Home Phone</label>
+      <input id="phoneInput" name="phoneInput" placeholder="ie:1234567890" />
+    </fieldset>
+    <fieldset class="pure-group">
+      <label for="procedure">Procedure</label>
+      <input id="procedure" name="procedure" placeholder="ie:Extraction" />
+    </fieldset>
+    <fieldset class="pure-group">
+      <label for="xrays">Have Xrays?</label>
+      <input id="xrays" name="xrays" placeholder="ie:yes" />
+    </fieldset>
+    <fieldset class="pure-group">
+      <label for="availInput">Best Availability</label>
+      <input id="availInput" name="availInput" />
+    </fieldset>
+    <fieldset class="pure-group">
+      <label for="cPhoneInput">Cell Phone</label>
+      <input id="cPhoneInput" name="cPhoneInput" placeholder="ie:1234567890" />
+    </fieldset>
+    <fieldset class="pure-group">
+      <label for="dInsInput">Dental Insurance</label>
+      <input id="dInsInput" name="dInsInput" placeholder="ie:Insurance Company" />
+    </fieldset>
+    <fieldset class="pure-group">
+      <label for="dNameInput">Dental Insured Name</label>
+      <input id="dNameInput" name="dNameInput" placeholder="ie:John Smith" />
+    </fieldset>
+    <fieldset class="pure-group">
+      <label for="dInsIDInput">Dental Insurance ID#</label>
+      <input id="dInsInput" name="dInsIDInput" placeholder="ie:Dental Insurance ID#" />
+    </fieldset>
+    <fieldset class="pure-group">
+      <label for="dRelationInput">Relation</label>
+      <input id="dRelationInput" name="dRelationInput" placeholder="ie:Spouse" />
+    </fieldset>
+    <fieldset class="pure-group">
+      <label for="dDOBInput">Dental Insured DOB</label>
+      <input id="dDOBInput" name="dDOBInput" type="date" />
+    </fieldset>
+    <fieldset class="pure-group">
+      <label for="dSSNInput">Dental Insured SSN</label>
+      <input id="dSSNInput" name="dSSNInput" placeholder="ie:000000000" />
+    </fieldset>
+    <fieldset class="pure-group">
+      <label for="mInsInput">Medical Insurance</label>
+      <input id="mInsInput" name="mInsInput" placeholder="ie:Insurance Company" />
+    </fieldset>
+    <fieldset class="pure-group">
+      <label for="mNameInput">Medical Insured Name</label>
+      <input id="mNameInput" name="mNameInput" placeholder="ie:John Smith" />
+    </fieldset>
+    <fieldset class="pure-group">
+      <label for="mInsInput">Medical Insurance ID#</label>
+      <input id="mInsInput" name="mInsIDInput" placeholder="ie:Dental Insurance ID#" />
+    </fieldset>
+    <fieldset class="pure-group">
+      <label for="mRelationInput">Relation</label>
+      <input id="mRelationInput" name="mRelationInput" placeholder="ie:Spouse" />
+    </fieldset>
+    <fieldset class="pure-group">
+      <label for="mDOBInput">Medical Insured DOB</label>
+      <input id="mDOBInput" name="mDOBInput" type="date" />
+    </fieldset>
+    <fieldset class="pure-group">
+      <label for="mSSNInput">Medical Insured SSN</label>
+      <input id="mSSNInput" name="mSSNInput" placeholder="ie:000000000" />
+    </fieldset>
+    <fieldset class="pure-group">
+      <label for="dNameInput">Dentist Name</label>
+      <input id="dNameInput" name="dNameInput" placeholder="ie:John Smith" />
+    </fieldset>
+    <fieldset class="pure-group">
+      <label for="dAddressInput">Dentist Address</label>
+      <input id="dAddressInput" name="dAddressInput" placeholder="Street Address" />
+    </fieldset>
+    <fieldset class="pure-group">
+      <label for="dCityInput">Dentist City</label>
+      <input id="dCityInput" name="dCityInput" placeholder="ie:Bergenfield" />
+    </fieldset>
+    <fieldset class="pure-group">
+      <label for="dZipInput">Dentist Zip Code</label>
+      <input id="dZipInput" name="dZipInput" placeholder="ie:12345" />
+    </fieldset>
+    <fieldset class="pure-group">
+      <label for="dPhoneInput">Dentist Phone</label>
+      <input id="dPhoneInput" name="dPhoneInput" placeholder="ie:1234567890" />
+    </fieldset>
+    <fieldset class="pure-group">
+      <label for="pNameInput">Physician Name</label>
+      <input id="pNameInput" name="pNameInput" placeholder="ie:John Smith" />
+    </fieldset>
+    <fieldset class="pure-group">
+      <label for="pAddressInput">Physician Address</label>
+      <input id="pAddressInput" name="pAddressInput" placeholder="Street Address" />
+    </fieldset>
+    <fieldset class="pure-group">
+      <label for="pCityInput">Physician City</label>
+      <input id="pCityInput" name="pCityInput" placeholder="ie:Bergenfield" />
+    </fieldset>
+    <fieldset class="pure-group">
+      <label for="pZipInput">Physician Zip Code</label>
+      <input id="pZipInput" name="pZipInput" placeholder="ie:12345" />
+    </fieldset>
+    <fieldset class="pure-group">
+      <label for="pPhoneInput">Physician Phone</label>
+      <input id="pPhoneInput" name="pPhoneInput" placeholder="ie:1234567890" />
+    </fieldset>
+      <button class="button-success pure-button button-xlarge">
+        <i class="fa fa-paper-plane"></i>&nbsp;Send
+      </button>
+</form>
+
+<form id="gform" method="POST" class="pure-form pure-form-stacked" data-email="bfatehi8@gmail.com"
+action="https://script.google.com/macros/s/AKfycbzsqE65irAKlE-d6UvJNIcTjdFxk9jT7QrByy8SH66WDBNSjl_x/exec">
+  <!-- change the form action to your script url -->
+
+  <fieldset class="pure-group">
+    <label for="name">Name: </label>
+    <input id="name" name="name" placeholder="Full Name" />
+  </fieldset>
+
+  <fieldset class="pure-group">
+    <label for="number">Number: </label>
+    <input id="number" name="number" placeholder="(123)456-7890" />
+  </fieldset>
+
+  <fieldset class="pure-group">
+    <label for="insurance">Insurance: </label>
+    <input id="insurance" name="insurance" placeholder="Insurance Company" />
+  </fieldset>
+
+  <fieldset class="pure-group">
+    <label for="procedure">Procedure: </label>
+    <input id="procedure" name="procedure" placeholder="ie:Extraction" />
+  </fieldset>
+
+  <fieldset class="pure-group">
+    <label for="availability">Nearest Available Date: </label>
+    <input id="availability" type="date" name="availability" />
+  </fieldset>
+
+  <button class="button-success pure-button button-xlarge">
+    <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
+
+</form>

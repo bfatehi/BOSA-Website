@@ -1,0 +1,129 @@
+<html>
+<head>
+  <title>Bergenfield Oral Surgery Associates</title>
+  <link rel="stylesheet" type="text/css" href="bosa.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script src="jquery-3.2.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <a class="navbar-brand" href="front.html">BOSA</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="nav navbar-nav login-navbar">
+        <li class="login-navbar-item"><button id="signUpButton" type="button" onclick="self.location='signup.html'" class="btn btn-outline-primary waves-effect">Schedule Appointment</button></li>
+        <li class="login-navbar-item"><button  id="contactButton" type="button" onclick="self.location='contact.html'"class="btn btn-outline-primary waves-effect">Contact</button></li>
+        <li class="login-navbar-item"><button id="directionsButton" type="button" onclick="self.location='directions.html'" class="btn btn-outline-primary waves-effect">Directions</button></li>
+        <li class="login-navbar-item"><button  id="processButton" type="button" onclick="self.location='process.html'"class="btn btn-outline-primary waves-effect">Process</button></li>
+        <li class="login-navbar-item"><button id="postopButton" type="button" onclick="self.location='postop.html'" class="btn btn-outline-primary waves-effect">Post-Op</button></li>
+        <li class="login-navbar-item"><button id="staffButton" type="button" onclick="self.location='staff.html'" class="btn btn-outline-primary waves-effect">Staff</button></li>
+        <li class="login-navbar-item"><button id="aboutButton" type="button" onclick="self.location='about.html'" class="btn btn-outline-primary waves-effect">About</button></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="top-ad" id="thisOne">
+    <div class="title-div">
+      <div class="title">
+        
+      </div>
+    </div>
+  </div>
+      <div class="container">
+        <h2 class="content-head is-center">Contact Us!</h2>
+        <aside>
+             <p>
+                 We would <em>love</em> to meet you! </p>
+                 <p>Please use the <b><em>Contact Form</em></b>
+                 to send us your information and we will call you shortly.
+             </p>
+         </aside>
+        <form id="gform" method="POST" class="pure-form pure-form-stacked"
+        action="https://script.google.com/macros/s/AKfycbzsqE65irAKlE-d6UvJNIcTjdFxk9jT7QrByy8SH66WDBNSjl_x/exec">
+          <!-- change the form action to your script url -->
+
+          <fieldset class="pure-group">
+            <label for="name">Name: </label>
+            <input id="name" name="name" placeholder="Full Name" />
+          </fieldset>
+
+          <fieldset class="pure-group">
+            <label for="number">Number: </label>
+            <input id="number" name="number" placeholder="(123)456-7890" />
+          </fieldset>
+
+          <fieldset class="pure-group">
+            <label for="email"><em>Your</em> Email Address:</label>
+            <input id="email" name="email" type="email" value=""
+            required placeholder="your.name@email.com"/>
+            <span id="email-invalid" style="display:none">
+              Must be a valid email address</span>
+          </fieldset>
+
+          <fieldset class="pure-group">
+            <label for="insurance">Insurance: </label>
+            <input id="insurance" name="insurance" placeholder="Insurance Company" />
+          </fieldset>
+
+          <fieldset class="pure-group">
+            <label for="procedure">Procedure: </label>
+            <input id="procedure" name="procedure" placeholder="ie:Extraction" />
+          </fieldset>
+
+          <fieldset class="pure-group">
+            <label for="availability">Nearest Available Date: </label>
+            <input id="availability" type="date" name="availability" />
+          </fieldset>
+
+          <button class="button-success pure-button button-xlarge">
+            <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
+
+        </form>
+        <div style="display:none;" id="thankyou_message">
+          <br></br>
+          <h2><em>Thanks</em> for contacting us!
+            We will get back to you soon!</h2>
+            <br></br>
+        </div>
+        <script data-cfasync="false" type="text/javascript"
+        src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+      </div>
+      <div>
+        <br><br>
+      </div>
+
+  <div class="buttons">
+    <button id="signUpButton" class="rowButtons" type="button" onclick="window.location='signup.html'">
+      Schedule Appointment
+    </button>
+    <button id="contactButton" class="rowButtons" type="button" onclick="window.location='contact.html'">
+      Contact
+    </button>
+    <button id="directionsButton" class="rowButtons" type="button" onclick="window.location='directions.html'">
+      Directions
+    </button>
+    <button id="processButton" class="rowButtons" type="button" onclick="window.location='process.html'">
+      Process
+    </button>
+    <button id="postopButton" class="rowButtons" type="button" onclick="window.location='postop.html'">
+      Post-Op
+    </button>
+    <button id="aboutButton" class="rowButtons" type="button" onclick="window.location='staff.html'">
+      Staff
+    </button>
+    <button id="directionsButton" class="rowButtons" type="button" onclick="window.location='about.html'">
+      About
+    </button>
+  </div>
+
+</body>
+
+</html>
